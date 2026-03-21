@@ -34,8 +34,6 @@ fi
 
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
- # Fox-specific flags
-
 export TW_DEFAULT_LANGUAGE='en'
 export OF_DONT_PATCH_ENCRYPTED_DEVICE='1'
 export FOX_USE_BASH_SHELL=0
@@ -79,13 +77,14 @@ export OF_FORCE_MAGISKBOOT_BOOT_PATCH_MIUI='1'
 export OF_SUPPORT_ALL_BLOCK_OTA_UPDATES='1'
 export OF_FIX_OTA_UPDATE_MANUAL_FLASH_ERROR='1'
 
-# Settings for R11
-export FOX_MAINTAINER_PATCH_VERSION='10'
+# Version & Variant
+# export FOX_VERSION="R12.1"  Deprecated!!!!
+export FOX_MAINTAINER_PATCH_VERSION="69"
+export FOX_VARIANT="A12"
+export FOX_BUILD_TYPE="Stable"
 export OF_MAINTAINER=Teletubies ☕
 export OF_USE_TWRP_SAR_DETECT='1'
 export OF_DISABLE_MIUI_OTA_BY_DEFAULT='1'
-export OF_QUICK_BACKUP_LIST='/system_root;/vendor;/data;/persist;/boot;/super;/super_cust;'
-export FOX_VARIANT='Unified'
 
 # Magisk
 user='topjohnwu'
