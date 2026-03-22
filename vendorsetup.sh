@@ -79,7 +79,7 @@ export OF_FIX_OTA_UPDATE_MANUAL_FLASH_ERROR='1'
 
 # Version & Variant
 # export FOX_VERSION="R12.1"  Deprecated!!!!
-export FOX_MAINTAINER_PATCH_VERSION="69"
+export FOX_MAINTAINER_PATCH_VERSION="5"
 export FOX_VARIANT="A12"
 export FOX_BUILD_TYPE="Stable"
 export OF_MAINTAINER=Teletubies ☕
