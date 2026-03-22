@@ -22,7 +22,7 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # Custom pic for maintainers about section info
 # Image should be 32 bit PNG 192 x 192 px - Size of image should be as small as possible 50kb
-OF_MAINTAINER_AVATAR := /device/xiaomi/mido/author.png
+OF_MAINTAINER_AVATAR := author.png
 OF_MAINTAINER := Teletubies ☕
 
 # Inherit from hardware-specific part of the product configuration
