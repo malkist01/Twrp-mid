@@ -1,0 +1,11 @@
+# HVDCP
+service hvdcp_opti /system/bin/hvdcp_opti
+    user root
+    group root
+    disabled
+    seclabel u:r:recovery:s0
+
+# check ROM dynamic/static identity
+on init
+    exec u:r:recovery:s0 -- /system/bin/fix_dynamic_static.sh
+#
